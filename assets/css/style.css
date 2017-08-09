@@ -15,7 +15,7 @@ header {
   margin-bottom: 20px;
   color: #ffffff;
   font-family: 'Georgia', Times, 'Times New Roman', sans-serif;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid gray;
 }
 
 section {
@@ -30,6 +30,7 @@ footer {
 	clear: both;
 	background-color: #666666;
 	text-align: center;
+	width: 903px;
 }
 
 #masthead {
@@ -63,6 +64,7 @@ footer {
   margin-right: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  /*display: inline-block;*/
 }
 
 /* portfolio page */
@@ -70,8 +72,9 @@ footer {
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  width: 250px;
+  /*margin: 20px 0 25px;*/
+  margin: 10px 5px 0px 0px;
   overflow: auto;
 }
 
@@ -80,7 +83,7 @@ footer {
 }
 
 .work img {
-  width: 75%;
+  width: 100%;
   border: 0 none;
   opacity: 0.8;
 }
@@ -88,8 +91,8 @@ footer {
 .work h3 {
   position: absolute;
   bottom: 20px;
-  width: 75%;
-  padding: 15px;
+  width: 100%;
+  padding: 5px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
@@ -236,6 +239,7 @@ section {
   margin-right: 20px;
   background: #fff;
   border: 2px solid #ddd;
+  align-content: center;
 }
 
 /*.clearfix::after{
@@ -332,7 +336,7 @@ footer {
 	/*padding: 10px;*/
 	clear: both;
 	background-color: #666666;
-	width: 600px;
+	width: 622px;
 	text-align: center;
 }
 
