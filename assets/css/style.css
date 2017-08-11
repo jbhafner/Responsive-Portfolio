@@ -165,13 +165,13 @@ footer {
 	}
 
 #sideBar{
-	width: 270px;
+	width: 250px;
 	display: inline-block;
 	vertical-align: top;
 	background-color: white;
 	border: solid black;
     border-size: 2px;
-    align: center;
+    text-align: center;
 }	
 
 .image { 
@@ -303,7 +303,7 @@ section {
 
 #aboutMeBox{
 	display: inline-block;
-	width: 350px;
+	width: 380px;
 	background-color: white;
 	/*border-color: black;*/
 	border: solid black;
@@ -332,7 +332,7 @@ section {
 	background-color: white;
 	border: solid black;
     border-size: 2px;
-    align: center;
+    text-align: center;
 }	
 
 footer {
